@@ -1,0 +1,38 @@
+{
+  "name": "kyutefox/kyutepdo",
+  "description": "A PDO-based PHP library for easy and efficient database management",
+  "type": "library",
+  "homepage": "https://kyutefox.com/product/kyutepdo",
+  "version": "1.0.0",
+  "keywords": [
+    "pdo",
+    "database",
+    "php",
+    "library"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Raju choudhary",
+      "homepage": "https://github.com/razoo-choudhary"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kyutefox\\KyutePDO\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
